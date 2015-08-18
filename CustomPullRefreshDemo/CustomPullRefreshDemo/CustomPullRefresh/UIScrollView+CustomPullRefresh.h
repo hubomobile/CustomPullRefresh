@@ -10,4 +10,6 @@
 
 @interface UIScrollView (CustomPullRefresh)
 
+- (void)addCustomGifRefreshWithAction:(void (^)(void))aAction;
+
 @end

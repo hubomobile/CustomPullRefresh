@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
+static CGFloat const CustomGifPullRefreshViewHeight = 60.f;
+
 @interface CustomGifPullRefreshView : UIView
 
 @end
