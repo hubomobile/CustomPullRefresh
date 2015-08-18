@@ -1,13 +1,13 @@
 //
-//  UIScrollView+CustomPullRefresh.h
+//  CustomGifPullRefreshView.m
 //  CustomPullRefreshDemo
 //
 //  Created by hubo on 15/8/18.
 //  Copyright (c) 2015年 hubo. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "CustomGifPullRefreshView.h"
 
-@interface UIScrollView (CustomPullRefresh)
+@implementation CustomGifPullRefreshView
 
 @end

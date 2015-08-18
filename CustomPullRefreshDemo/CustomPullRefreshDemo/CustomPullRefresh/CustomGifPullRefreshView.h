@@ -1,5 +1,5 @@
 //
-//  UIScrollView+CustomPullRefresh.h
+//  CustomGifPullRefreshView.h
 //  CustomPullRefreshDemo
 //
 //  Created by hubo on 15/8/18.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface UIScrollView (CustomPullRefresh)
+@interface CustomGifPullRefreshView : UIView
 
 @end

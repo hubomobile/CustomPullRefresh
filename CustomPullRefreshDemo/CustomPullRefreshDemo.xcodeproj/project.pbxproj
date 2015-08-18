@@ -15,6 +15,7 @@
 		86B395A21B82D55C00513034 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 86B395A01B82D55C00513034 /* LaunchScreen.xib */; };
 		86B395AE1B82D55C00513034 /* CustomPullRefreshDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 86B395AD1B82D55C00513034 /* CustomPullRefreshDemoTests.m */; };
 		86B395BA1B82D5C600513034 /* UIScrollView+CustomPullRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 86B395B91B82D5C600513034 /* UIScrollView+CustomPullRefresh.m */; };
+		86B395BD1B82D9E900513034 /* CustomGifPullRefreshView.m in Sources */ = {isa = PBXBuildFile; fileRef = 86B395BC1B82D9E900513034 /* CustomGifPullRefreshView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,8 @@
 		86B395AD1B82D55C00513034 /* CustomPullRefreshDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomPullRefreshDemoTests.m; sourceTree = "<group>"; };
 		86B395B81B82D5C600513034 /* UIScrollView+CustomPullRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+CustomPullRefresh.h"; sourceTree = "<group>"; };
 		86B395B91B82D5C600513034 /* UIScrollView+CustomPullRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+CustomPullRefresh.m"; sourceTree = "<group>"; };
+		86B395BB1B82D9E900513034 /* CustomGifPullRefreshView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomGifPullRefreshView.h; sourceTree = "<group>"; };
+		86B395BC1B82D9E900513034 /* CustomGifPullRefreshView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomGifPullRefreshView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +69,7 @@
 		86B395851B82D55C00513034 = {
 			isa = PBXGroup;
 			children = (
+				86B395B71B82D59E00513034 /* CustomPullRefresh */,
 				86B395901B82D55C00513034 /* CustomPullRefreshDemo */,
 				86B395AA1B82D55C00513034 /* CustomPullRefreshDemoTests */,
 				86B3958F1B82D55C00513034 /* Products */,
@@ -84,7 +88,6 @@
 		86B395901B82D55C00513034 /* CustomPullRefreshDemo */ = {
 			isa = PBXGroup;
 			children = (
-				86B395B71B82D59E00513034 /* CustomPullRefresh */,
 				86B395951B82D55C00513034 /* AppDelegate.h */,
 				86B395961B82D55C00513034 /* AppDelegate.m */,
 				86B395981B82D55C00513034 /* ViewController.h */,
@@ -128,8 +131,11 @@
 			children = (
 				86B395B81B82D5C600513034 /* UIScrollView+CustomPullRefresh.h */,
 				86B395B91B82D5C600513034 /* UIScrollView+CustomPullRefresh.m */,
+				86B395BB1B82D9E900513034 /* CustomGifPullRefreshView.h */,
+				86B395BC1B82D9E900513034 /* CustomGifPullRefreshView.m */,
 			);
-			path = CustomPullRefresh;
+			name = CustomPullRefresh;
+			path = CustomPullRefreshDemo/CustomPullRefresh;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,6 +240,7 @@
 			files = (
 				86B3959A1B82D55C00513034 /* ViewController.m in Sources */,
 				86B395971B82D55C00513034 /* AppDelegate.m in Sources */,
+				86B395BD1B82D9E900513034 /* CustomGifPullRefreshView.m in Sources */,
 				86B395BA1B82D5C600513034 /* UIScrollView+CustomPullRefresh.m in Sources */,
 				86B395941B82D55C00513034 /* main.m in Sources */,
 			);
@@ -432,6 +439,7 @@
 				86B395B31B82D55C00513034 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		86B395B41B82D55C00513034 /* Build configuration list for PBXNativeTarget "CustomPullRefreshDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -440,6 +448,7 @@
 				86B395B61B82D55C00513034 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
