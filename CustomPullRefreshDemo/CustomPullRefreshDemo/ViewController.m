@@ -2,7 +2,7 @@
 //  ViewController.m
 //  CustomPullRefreshDemo
 //
-//  Created by 胡波 on 15/8/18.
+//  Created by hubo on 15/8/18.
 //  Copyright (c) 2015年 hubo. All rights reserved.
 //
 
@@ -17,11 +17,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-}
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 @end

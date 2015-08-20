@@ -13,20 +13,9 @@
 		86B3959D1B82D55C00513034 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86B3959B1B82D55C00513034 /* Main.storyboard */; };
 		86B3959F1B82D55C00513034 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86B3959E1B82D55C00513034 /* Images.xcassets */; };
 		86B395A21B82D55C00513034 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 86B395A01B82D55C00513034 /* LaunchScreen.xib */; };
-		86B395AE1B82D55C00513034 /* CustomPullRefreshDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 86B395AD1B82D55C00513034 /* CustomPullRefreshDemoTests.m */; };
 		86B395BA1B82D5C600513034 /* UIScrollView+CustomPullRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 86B395B91B82D5C600513034 /* UIScrollView+CustomPullRefresh.m */; };
 		86B395BD1B82D9E900513034 /* CustomGifPullRefreshView.m in Sources */ = {isa = PBXBuildFile; fileRef = 86B395BC1B82D9E900513034 /* CustomGifPullRefreshView.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		86B395A81B82D55C00513034 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 86B395861B82D55C00513034 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 86B3958D1B82D55C00513034;
-			remoteInfo = CustomPullRefreshDemo;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		86B3958E1B82D55C00513034 /* CustomPullRefreshDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomPullRefreshDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -39,7 +28,6 @@
 		86B3959C1B82D55C00513034 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		86B3959E1B82D55C00513034 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		86B395A11B82D55C00513034 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		86B395A71B82D55C00513034 /* CustomPullRefreshDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomPullRefreshDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		86B395AC1B82D55C00513034 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		86B395AD1B82D55C00513034 /* CustomPullRefreshDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomPullRefreshDemoTests.m; sourceTree = "<group>"; };
 		86B395B81B82D5C600513034 /* UIScrollView+CustomPullRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+CustomPullRefresh.h"; sourceTree = "<group>"; };
@@ -50,13 +38,6 @@
 
 /* Begin PBXFrameworksBuildPhase section */
 		86B3958B1B82D55C00513034 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		86B395A41B82D55C00513034 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -80,7 +61,6 @@
 			isa = PBXGroup;
 			children = (
 				86B3958E1B82D55C00513034 /* CustomPullRefreshDemo.app */,
-				86B395A71B82D55C00513034 /* CustomPullRefreshDemoTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -158,24 +138,6 @@
 			productReference = 86B3958E1B82D55C00513034 /* CustomPullRefreshDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		86B395A61B82D55C00513034 /* CustomPullRefreshDemoTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 86B395B41B82D55C00513034 /* Build configuration list for PBXNativeTarget "CustomPullRefreshDemoTests" */;
-			buildPhases = (
-				86B395A31B82D55C00513034 /* Sources */,
-				86B395A41B82D55C00513034 /* Frameworks */,
-				86B395A51B82D55C00513034 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				86B395A91B82D55C00513034 /* PBXTargetDependency */,
-			);
-			name = CustomPullRefreshDemoTests;
-			productName = CustomPullRefreshDemoTests;
-			productReference = 86B395A71B82D55C00513034 /* CustomPullRefreshDemoTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -187,10 +149,6 @@
 				TargetAttributes = {
 					86B3958D1B82D55C00513034 = {
 						CreatedOnToolsVersion = 6.3.2;
-					};
-					86B395A61B82D55C00513034 = {
-						CreatedOnToolsVersion = 6.3.2;
-						TestTargetID = 86B3958D1B82D55C00513034;
 					};
 				};
 			};
@@ -208,7 +166,6 @@
 			projectRoot = "";
 			targets = (
 				86B3958D1B82D55C00513034 /* CustomPullRefreshDemo */,
-				86B395A61B82D55C00513034 /* CustomPullRefreshDemoTests */,
 			);
 		};
 /* End PBXProject section */
@@ -221,13 +178,6 @@
 				86B3959D1B82D55C00513034 /* Main.storyboard in Resources */,
 				86B395A21B82D55C00513034 /* LaunchScreen.xib in Resources */,
 				86B3959F1B82D55C00513034 /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		86B395A51B82D55C00513034 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,23 +196,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		86B395A31B82D55C00513034 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				86B395AE1B82D55C00513034 /* CustomPullRefreshDemoTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		86B395A91B82D55C00513034 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 86B3958D1B82D55C00513034 /* CustomPullRefreshDemo */;
-			targetProxy = 86B395A81B82D55C00513034 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		86B3959B1B82D55C00513034 /* Main.storyboard */ = {
@@ -386,40 +320,6 @@
 			};
 			name = Release;
 		};
-		86B395B51B82D55C00513034 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = CustomPullRefreshDemoTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CustomPullRefreshDemo.app/CustomPullRefreshDemo";
-			};
-			name = Debug;
-		};
-		86B395B61B82D55C00513034 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = CustomPullRefreshDemoTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CustomPullRefreshDemo.app/CustomPullRefreshDemo";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -437,15 +337,6 @@
 			buildConfigurations = (
 				86B395B21B82D55C00513034 /* Debug */,
 				86B395B31B82D55C00513034 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		86B395B41B82D55C00513034 /* Build configuration list for PBXNativeTarget "CustomPullRefreshDemoTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				86B395B51B82D55C00513034 /* Debug */,
-				86B395B61B82D55C00513034 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
